@@ -1,0 +1,76 @@
+.color-container {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.color-character{
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;                       
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.color-name{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    font-weight: 700;
+}
+.color-code{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.color-year{
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    left: 52%;
+    bottom: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI';
+}
+.color-pantone{
+    font-size: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    left: 48%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI';
+}
+.modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    padding: 0%;
+    border:0ch ;
+  
+}
+.modal-title{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans MT';
+    font-weight: bolder;
+}
+
